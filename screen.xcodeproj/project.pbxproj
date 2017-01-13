@@ -14,6 +14,7 @@
 		9B5292F51E29161400C3A3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5292F31E29161400C3A3CC /* LaunchScreen.storyboard */; };
 		9B5293001E29161400C3A3CC /* screenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5292FF1E29161400C3A3CC /* screenTests.swift */; };
 		9B52930B1E29161400C3A3CC /* screenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52930A1E29161400C3A3CC /* screenUITests.swift */; };
+		9B52931B1E2918B500C3A3CC /* seconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52931A1E2918B500C3A3CC /* seconViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B5293061E29161400C3A3CC /* screenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = screenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52930A1E29161400C3A3CC /* screenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenUITests.swift; sourceTree = "<group>"; };
 		9B52930C1E29161400C3A3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B52931A1E2918B500C3A3CC /* seconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seconViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9B5292F11E29161400C3A3CC /* Assets.xcassets */,
 				9B5292F31E29161400C3A3CC /* LaunchScreen.storyboard */,
 				9B5292F61E29161400C3A3CC /* Info.plist */,
+				9B52931A1E2918B500C3A3CC /* seconViewController.swift */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				9B5292ED1E29161400C3A3CC /* ViewController.swift in Sources */,
 				9B5292EB1E29161400C3A3CC /* AppDelegate.swift in Sources */,
+				9B52931B1E2918B500C3A3CC /* seconViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AX766J88NA;
 				INFOPLIST_FILE = screen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvana.screen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AX766J88NA;
 				INFOPLIST_FILE = screen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvana.screen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +520,7 @@
 				9B5293111E29161400C3A3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5293121E29161400C3A3CC /* Build configuration list for PBXNativeTarget "screenTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				9B5293141E29161400C3A3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5293151E29161400C3A3CC /* Build configuration list for PBXNativeTarget "screenUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				9B5293171E29161400C3A3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
